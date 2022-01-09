@@ -1,0 +1,15 @@
+#! /bin/bash
+python3 -m pytest Test/User/UserServiceTestCase.py
+python3 -m pytest Test/User/UserRepositoryTestCase.py
+
+python3 -m pytest Test/Item/ItemServiceTestCase.py
+python3 -m pytest Test/Item/ItemRepositoryTestCase.py
+
+python3 -m pytest Test/Look/LookServiceTestCase.py
+python3 -m pytest Test/Look/LookRepositoryTestCase.py
+
+python3 -m pytest Test/Wardrobe/WardrobeRepositoryTestCase.py
+python3 -m pytest Test/Wardrobe/WardrobeServiceTestCase.py
+
+python3 -m pytest Test/Invite/InviteServiceTestCase.py
+python3 -m pytest Test/Invite/InviteRepositoryTestCase.py
